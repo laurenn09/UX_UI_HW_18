@@ -1,0 +1,92 @@
+
+/*Navigation*/
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Exo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+#navLogo {
+    width: 30px;
+    height: 30px;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+    height: 50px;
+    display: inline;
+    list-style-type: none;
+    width: 100%;
+    margin-left: auto;
+    display: inline;
+    justify-content: right;
+    background-color: black;
+    color: white;
+}
+
+#navUL {
+   
+}
+/*Hero Image Content*/
+
+.heroImg {
+    height: 600px;
+    padding: 15px;
+    font-family: 'Exo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #0E1011;
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+#heroimage {
+    height: 300px;
+    display: inline-block;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    display: inline;
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-family: Raleway;
+    font-weight: 600;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #373738;
+    color: #ffffff;
+    padding: 25px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 0;
+    margin: 0 auto;
+
+}
+
+#footerUL {
+    list-style: none;
+    display: inline-block;
+    display: inline;
+}
