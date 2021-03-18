@@ -255,4 +255,22 @@ h3 {
         "project3"
         ;
     }
+    #project1 {
+        grid-template-areas: 
+        "project1img" 
+        "project1desc"
+        ;
+    }
+    #project2 {
+        grid-template-areas: 
+        "project2img" 
+        "project2desc"
+        ;
+    }
+    #project3 {
+        grid-template-areas: 
+        "project3img" 
+        "project3desc"
+        ;
+    }
 }
