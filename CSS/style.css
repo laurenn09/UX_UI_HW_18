@@ -237,13 +237,22 @@ h3 {
 
 /*Media Queries*/
 @media only screen and (max-width: 600px) {
+    body {
+        background-color: coral;
+    }
     .flexContainer {
         flex-direction: column;
     }
-    .myWork {
-        width: 100%;
-    }
     .workGrid {
-        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "project1" 
+        "project1"
+        "project2" 
+        "project2"
+        "project3" 
+        "project3"
+        ;
     }
 }
