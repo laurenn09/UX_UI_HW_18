@@ -33,9 +33,6 @@ nav {
     color: white;
 }
 
-#navUL {
-   
-}
 /*Hero Image Content*/
 
 .heroImg {
@@ -63,8 +60,11 @@ nav {
 button {
     background-color: white;
     color: black;
-    font-family: Raleway;
+    width: 150px;
+    height: 40px;
+    font-family: 'Raleway';
     font-weight: 600;
+    padding: 5px;
 }
 
 /*Footer*/
@@ -90,3 +90,142 @@ footer {
     display: inline-block;
     display: inline;
 }
+
+/*Hero2 Section*/
+
+.HeroSection2 {
+    font-family: 'Raleway', 'Exo', 'Roboto';
+    background-color:  #222324;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    margin: 0%;
+}
+
+/*Skills Section*/
+.mySkills, .myWork {
+    font-family: 'Proxima Nova', 'Exo', 'Roboto';
+    background-color: #15262D;
+    color:#ffffff;
+    margin: 0%;
+}
+.flexContainer {
+    display: flex;
+}
+#skill1 {
+    width: 33%;
+    margin: 40px;
+    padding: 5;
+}
+#skill2 {
+    width: 33%;
+    margin: 40px;
+    padding: 5;
+}
+#skill3 {
+    width: 33%;
+    margin: 40px;
+    padding: 5;
+}
+#skill1image {
+    width: 300px;
+    margin: 40px;
+}
+#skill2image {
+    width: 300px;
+    margin: 40px;
+}
+#skill3image {
+    width: 300px;
+    margin: 40px;
+}
+
+/*My Work Section*/
+
+.myWork {
+    background-color: #0E1011;
+    color:#ffffff;
+    margin: 0%;
+}
+
+h1 {
+    font-weight: 500;
+    color: #ffffff;
+    padding: 35px;
+    text-align: center;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-areas: 
+    "project1 project1"
+    "project2 project2"
+    "project3 project3"
+    ;
+    padding: 20px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Project1 {
+    display: grid;
+    padding: 50px;
+    grid-area: project1;
+    grid-template-areas:
+    "project1img project1desc"
+}
+
+#Project2 {
+    display: grid;
+    padding: 50px;
+    grid-area: project2;
+    grid-template-areas:
+    "project2img project2desc"
+
+}
+#Project3 {
+    display: grid;
+    padding: 50px;
+    grid-area: project3;
+    grid-template-areas:
+    "project3img project3desc"
+  
+}
+
+#project1img {
+    width: 700px;
+    height: auto;
+    grid-area: project1img;
+}
+#project2img {
+    width: 700px;
+    height: auto;
+    grid-area: project2img;
+}
+#project3img {
+    width: 700px;
+    height: auto;
+    grid-area: project3img;
+}
+ 
+#project1desc {
+    grid-area: project1desc;
+    padding: 100px;
+}
+#project2desc {
+    grid-area: project2desc;
+    padding: 100px;
+}
+#project3desc {
+    grid-area: project3desc;
+    padding: 100px;
+}
+
+h3 {
+    font-weight: 500;
+    color: #ffffff;
+    padding: 35px;
+    text-align: center;
+}
+
+/*Media Queries*/
