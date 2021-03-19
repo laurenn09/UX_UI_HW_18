@@ -14,7 +14,6 @@
     display: inline;
     text-align: center;
     justify-content: space-around;
-    background-color: black;
 }
 
 #navLogo {
@@ -23,6 +22,7 @@
 }
 .navigation {
     display: flex;
+    background-color: black;
 }
 nav {
     width: 73%;
@@ -33,7 +33,6 @@ nav {
     width: 100%;
     margin: 0;
     justify-content: left;
-    background-color: black;
     color: white;
 }
 
@@ -164,14 +163,14 @@ h1 {
 
 .workGrid {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
     "project1 project1"
     "project2 project2"
     "project3 project3"
     ;
     padding: 20px;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
 }
 
 #Project1 {
@@ -187,7 +186,7 @@ h1 {
     padding: 50px;
     grid-area: project2;
     grid-template-areas:
-    "project2img project2desc"
+    "project2desc project2img"
 
 }
 #Project3 {
@@ -237,11 +236,11 @@ h3 {
 
 /*Media Queries*/
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: coral;
-    }
     .flexContainer {
         flex-direction: column;
+    }
+    #skill1 #skill2 #skill3 {
+        width: 100%;
     }
     .workGrid {
         grid-template-columns: 1fr;
